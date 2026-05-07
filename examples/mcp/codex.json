@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "agentic-brokerage": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/agentic-brokerage-mcp",
+        "run",
+        "agentic-brokerage-mcp"
+      ],
+      "env": {
+        "AGENTIC_BROKERAGE_MCP_BROKER_MODE": "demo"
+      }
+    }
+  }
+}
